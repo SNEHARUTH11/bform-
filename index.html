@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Excel File</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Generate Excel from Student Data</h1>
+  <form id="generateExcelForm" action="/generate-excel" method="POST">
+    <label for="subject">Select Subject:</label>
+    <select id="subject" name="subject" required>
+      <option value="Digital communication">Digital Communication</option>
+      <option value="Economics and Management">Economics and mangement</option>
+      <option value="Research">research</option>
+      <option value="control system">Control System</option>
+    </select>
+    <button type="submit">Generate & Download Excel</button>
+  </form>
+</body>
+</html>
